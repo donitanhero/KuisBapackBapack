@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
+  m_Name: RemoteConfigDataStoreAsset
+  m_EditorClassIdentifier: 
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"fdd0d525-c0e0-4a37-a578-9c76f7ff082f\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Level 1 Question\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": [\r\n        {\r\n         
+    \"ID\": \"1\",\r\n          \"Question\": \"Telor apa yang bisa nyanyi\",\r\n         
+    \"Answer\": \"Telor Swift\",\r\n          \"Alasan\": \"Soalnya Taylor Swift\",\r\n         
+    \"Clue\": \"_ _ _ _ _   _ _ _ _ _\",\r\n          \"Help\": \"T _ _ O _   _ W
+    _ _ T\"\r\n        },\r\n        {\r\n          \"ID\": \"2\",\r\n          \"Question\":
+    \"Serangga apa yang ga mudah putus asa\",\r\n          \"Answer\": \"Ulet\",\r\n         
+    \"Alasan\": \"soalnya rajin dan ulet\",\r\n          \"Clue\": \"_ _ _ _\",\r\n         
+    \"Help\": \"U _ _ _ _\"\r\n        },\r\n        {\r\n          \"ID\": \"3\",\r\n         
+    \"Question\": \"tempat di jakarta yang iconic\",\r\n          \"Answer\": \"OHI\",\r\n         
+    \"Alasan\": \"Bundaran HI\",\r\n          \"Clue\": \"_ _ _\",\r\n          \"Help\":
+    \"O _ _\"\r\n        },\r\n        {\r\n          \"ID\": \"4\",\r\n         
+    \"Question\": \"Apa yang selalu ada ketika tidur namun menghilang saat bangun?\",\r\n         
+    \"Answer\": \"Mimpi\",\r\n          \"Alasan\": \"Bunga tidur\",\r\n         
+    \"Clue\": \"_ _ _ _ _\",\r\n          \"Help\": \"M _ _ _ _\"\r\n        },\r\n       
+    {\r\n          \"ID\": \"5\",\r\n          \"Question\": \"Apa yang bisa kamu
+    pegang namun tidak bisa kamu sentuh\",\r\n          \"Answer\": \"Janji\",\r\n         
+    \"Alasan\": \"Lisan yang dipegang\",\r\n          \"Clue\": \"_ _ _ _ _\",\r\n         
+    \"Help\": \"J _ _ _ _\"\r\n        },\r\n        {\r\n          \"ID\": \"6\",\r\n         
+    \"Question\": \"Apa yang selalu naik namun tidak pernah turun\",\r\n         
+    \"Answer\": \"Usia\",\r\n          \"Alasan\": \"Seumur hidup\",\r\n         
+    \"Clue\": \"_ _ _ _\",\r\n          \"Help\": \"U _ _ _ _\"\r\n        },\r\n       
+    {\r\n          \"ID\": \"7\",\r\n          \"Question\": \"Masih kecil hitam,
+    tetapi kalau sudah besar menjadi putih, apakah itu\",\r\n          \"Answer\":
+    \"Rambut\",\r\n          \"Alasan\": \"Proses alamiah\",\r\n          \"Clue\":
+    \"_ _ _ _ _\",\r\n          \"Help\": \"R _ _ _ _\"\r\n        },\r\n       
+    {\r\n          \"ID\": \"8\",\r\n          \"Question\": \"Rokok apa yang tidak
+    bisa dinyalakan\",\r\n          \"Answer\": \"Rokok elektrik\",\r\n         
+    \"Alasan\": \"Tidak memerlukan bara\",\r\n          \"Clue\": \"_ _ _ _ _    
+    _ _ _ _ _ _ _ _\",\r\n          \"Help\": \"R _ _ _ _     E _ _ _ _ _ _ _\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"9\",\r\n          \"Question\": \"Mana
+    yang lebih berat, satu ton bata atau satu ton besi\",\r\n          \"Answer\":
+    \"Sama\",\r\n          \"Alasan\": \"Ukuran berat\",\r\n          \"Clue\": \"_
+    _ _ _\",\r\n          \"Help\": \"S _ _ _\"\r\n        },\r\n        {\r\n         
+    \"ID\": \"10\",\r\n          \"Question\": \"Apa yang harus dipecah sebelum digunakannya\",\r\n         
+    \"Answer\": \"Telur\",\r\n          \"Alasan\": \"Umumnya yang digunakan isinya\",\r\n         
+    \"Clue\": \"_ _ _ _ _\",\r\n          \"Help\": \"T _ _ _ _\"\r\n        }\r\n     
+    ]\r\n    }\r\n  }\r\n]"
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"fdd0d525-c0e0-4a37-a578-9c76f7ff082f\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Level 1 Question\",\r\n      \"type\":
+    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": [\r\n        {\r\n         
+    \"ID\": \"1\",\r\n          \"Question\": \"Telor apa yang bisa nyanyi\",\r\n         
+    \"Answer\": \"Telor Swift\",\r\n          \"Alasan\": \"Soalnya Taylor Swift\",\r\n         
+    \"Clue\": \"_ _ _ _ _   _ _ _ _ _\",\r\n          \"Help\": \"T _ _ O _   _ W
+    _ _ T\"\r\n        },\r\n        {\r\n          \"ID\": \"2\",\r\n          \"Question\":
+    \"Serangga apa yang ga mudah putus asa\",\r\n          \"Answer\": \"Ulet\",\r\n         
+    \"Alasan\": \"soalnya rajin dan ulet\",\r\n          \"Clue\": \"_ _ _ _\",\r\n         
+    \"Help\": \"U _ _ _ _\"\r\n        },\r\n        {\r\n          \"ID\": \"3\",\r\n         
+    \"Question\": \"tempat di jakarta yang iconic\",\r\n          \"Answer\": \"OHI\",\r\n         
+    \"Alasan\": \"Bundaran HI\",\r\n          \"Clue\": \"_ _ _\",\r\n          \"Help\":
+    \"O _ _\"\r\n        },\r\n        {\r\n          \"ID\": \"4\",\r\n         
+    \"Question\": \"Apa yang selalu ada ketika tidur namun menghilang saat bangun?\",\r\n         
+    \"Answer\": \"Mimpi\",\r\n          \"Alasan\": \"Bunga tidur\",\r\n         
+    \"Clue\": \"_ _ _ _ _\",\r\n          \"Help\": \"M _ _ _ _\"\r\n        },\r\n       
+    {\r\n          \"ID\": \"5\",\r\n          \"Question\": \"Apa yang bisa kamu
+    pegang namun tidak bisa kamu sentuh\",\r\n          \"Answer\": \"Janji\",\r\n         
+    \"Alasan\": \"Lisan yang dipegang\",\r\n          \"Clue\": \"_ _ _ _ _\",\r\n         
+    \"Help\": \"J _ _ _ _\"\r\n        },\r\n        {\r\n          \"ID\": \"6\",\r\n         
+    \"Question\": \"Apa yang selalu naik namun tidak pernah turun\",\r\n         
+    \"Answer\": \"Usia\",\r\n          \"Alasan\": \"Seumur hidup\",\r\n         
+    \"Clue\": \"_ _ _ _\",\r\n          \"Help\": \"U _ _ _ _\"\r\n        },\r\n       
+    {\r\n          \"ID\": \"7\",\r\n          \"Question\": \"Masih kecil hitam,
+    tetapi kalau sudah besar menjadi putih, apakah itu\",\r\n          \"Answer\":
+    \"Rambut\",\r\n          \"Alasan\": \"Proses alamiah\",\r\n          \"Clue\":
+    \"_ _ _ _ _\",\r\n          \"Help\": \"R _ _ _ _\"\r\n        },\r\n       
+    {\r\n          \"ID\": \"8\",\r\n          \"Question\": \"Rokok apa yang tidak
+    bisa dinyalakan\",\r\n          \"Answer\": \"Rokok elektrik\",\r\n         
+    \"Alasan\": \"Tidak memerlukan bara\",\r\n          \"Clue\": \"_ _ _ _ _    
+    _ _ _ _ _ _ _ _\",\r\n          \"Help\": \"R _ _ _ _     E _ _ _ _ _ _ _\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"9\",\r\n          \"Question\": \"Mana
+    yang lebih berat, satu ton bata atau satu ton besi\",\r\n          \"Answer\":
+    \"Sama\",\r\n          \"Alasan\": \"Ukuran berat\",\r\n          \"Clue\": \"_
+    _ _ _\",\r\n          \"Help\": \"S _ _ _\"\r\n        },\r\n        {\r\n         
+    \"ID\": \"10\",\r\n          \"Question\": \"Apa yang harus dipecah sebelum digunakannya\",\r\n         
+    \"Answer\": \"Telur\",\r\n          \"Alasan\": \"Umumnya yang digunakan isinya\",\r\n         
+    \"Clue\": \"_ _ _ _ _\",\r\n          \"Help\": \"T _ _ _ _\"\r\n        }\r\n     
+    ]\r\n    }\r\n  }\r\n]"
+  _environments: "[\r\n  {\r\n    \"projectId\": \"8207fd3d-05e6-4243-9e36-31662801d088\",\r\n   
+    \"name\": \"production\",\r\n    \"id\": \"1c0a2430-c865-4be2-97cc-0f80107b15fa\",\r\n   
+    \"isDefault\": true,\r\n    \"createdAt\": \"2024-02-01T13:25:08Z\",\r\n    \"updatedAt\":
+    \"2024-02-01T13:25:08Z\"\r\n  }\r\n]"
