@@ -8,6 +8,7 @@ public class LevelObj : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _txtLevel;
     [SerializeField] private Button _btnPlayLevel;
+    [SerializeField] private Image _imgLevelLock;
 
     private int _levelIndex;
 
@@ -16,10 +17,13 @@ public class LevelObj : MonoBehaviour
         _btnPlayLevel.onClick.AddListener(LevelPlay);
     }
 
-    public void SetUp(int index)
+    public void SetUp(int index, bool unlock)
     {
         _levelIndex = index;
         _txtLevel.SetText((index + ConstVar.ONE).ToString());
+
+        if(unlock) _imgLevelLock.gameObject.SetActive(false);
+
     }
 
     private void LevelPlay()

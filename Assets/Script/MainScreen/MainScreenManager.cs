@@ -15,12 +15,14 @@ public class MainScreenManager : MonoBehaviour
     {
         _openingScreen.gameObject.SetActive(true);
         _btnStartGame.onClick.AddListener(() => StaticAction.OnSceneChange?.Invoke(ConstVar.MAIN_MENU_SCENE));
+        
     }
 
     // Start is called before the first frame update
     void Start()
     {
         tempTime = Time.time;
+        StaticAction.OnMusicPlay(ConstVar.SOUND_MAIN_SCREEN_MUSIC);
         StartCoroutine(WaitForQuestionFetched());
     }
 

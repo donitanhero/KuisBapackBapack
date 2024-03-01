@@ -12,84 +12,506 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
   m_Name: RemoteConfigDataStoreAsset
   m_EditorClassIdentifier: 
-  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"fdd0d525-c0e0-4a37-a578-9c76f7ff082f\"\r\n   
-    },\r\n    \"rs\": {\r\n      \"key\": \"Level 1 Question\",\r\n      \"type\":
-    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": [\r\n        {\r\n         
-    \"ID\": \"1\",\r\n          \"Question\": \"Telor apa yang bisa nyanyi\",\r\n         
-    \"Answer\": \"Telor Swift\",\r\n          \"Alasan\": \"Soalnya Taylor Swift\",\r\n         
-    \"Clue\": \"_ _ _ _ _   _ _ _ _ _\",\r\n          \"Help\": \"T _ _ O _   _ W
-    _ _ T\"\r\n        },\r\n        {\r\n          \"ID\": \"2\",\r\n          \"Question\":
-    \"Serangga apa yang ga mudah putus asa\",\r\n          \"Answer\": \"Ulet\",\r\n         
-    \"Alasan\": \"soalnya rajin dan ulet\",\r\n          \"Clue\": \"_ _ _ _\",\r\n         
-    \"Help\": \"U _ _ _ _\"\r\n        },\r\n        {\r\n          \"ID\": \"3\",\r\n         
-    \"Question\": \"tempat di jakarta yang iconic\",\r\n          \"Answer\": \"OHI\",\r\n         
-    \"Alasan\": \"Bundaran HI\",\r\n          \"Clue\": \"_ _ _\",\r\n          \"Help\":
-    \"O _ _\"\r\n        },\r\n        {\r\n          \"ID\": \"4\",\r\n         
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"90b6c4c7-ea54-4ba1-bbcb-0fa026705973\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Level_Data\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": [\r\n        {\r\n          \"LevelID\":
+    \"Level_ID_001\",\r\n          \"LevelName\": \"Rumah\"\r\n        },\r\n       
+    {\r\n          \"LevelID\": \"Level_ID_002\",\r\n          \"LevelName\": \"Tetangga\"\r\n       
+    },\r\n        {\r\n          \"LevelID\": \"Level_ID_003\",\r\n          \"LevelName\":
+    \"Pos Kamling\"\r\n        },\r\n        {\r\n          \"LevelID\": \"Level_ID_004\",\r\n         
+    \"LevelName\": \"Warung Kopi\"\r\n        },\r\n        {\r\n          \"LevelID\":
+    \"Level_ID_005\",\r\n          \"LevelName\": \"Industri\"\r\n        }\r\n     
+    ]\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"ebe932e9-1bd4-404c-b571-94e2af697a07\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Level_ID_001\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": [\r\n        {\r\n          \"ID\": \"1\",\r\n         
+    \"Question\": \"Telor apa yang bisa nyanyi\",\r\n          \"Answer\": \"Telor
+    Swift\",\r\n          \"Alasan\": \"Soalnya Taylor Swift\",\r\n          \"Clue\":
+    \"_ _ _ _ _   _ _ _ _ _\",\r\n          \"Help\": \"T _ _ O _   _ W _ _ T\",\r\n         
+    \"Choice\": \"T,E,L,O,R, ,S,W,I,F,A,U\"\r\n        },\r\n        {\r\n         
+    \"ID\": \"2\",\r\n          \"Question\": \"Serangga apa yang ga mudah putus
+    asa\",\r\n          \"Answer\": \"Ulet\",\r\n          \"Alasan\": \"soalnya
+    rajin dan ulet\",\r\n          \"Clue\": \"_ _ _ _\",\r\n          \"Help\":
+    \"U _ _ _ _\",\r\n          \"Choice\": \"U,L,E,T,S,O\"\r\n        },\r\n       
+    {\r\n          \"ID\": \"3\",\r\n          \"Question\": \"tempat di jakarta
+    yang iconic\",\r\n          \"Answer\": \"OHI\",\r\n          \"Alasan\": \"Bundaran
+    HI\",\r\n          \"Clue\": \"_ _ _\",\r\n          \"Help\": \"O _ _\",\r\n         
+    \"Choice\": \"O,H,I,T,A\"\r\n        },\r\n        {\r\n          \"ID\": \"4\",\r\n         
     \"Question\": \"Apa yang selalu ada ketika tidur namun menghilang saat bangun?\",\r\n         
     \"Answer\": \"Mimpi\",\r\n          \"Alasan\": \"Bunga tidur\",\r\n         
-    \"Clue\": \"_ _ _ _ _\",\r\n          \"Help\": \"M _ _ _ _\"\r\n        },\r\n       
-    {\r\n          \"ID\": \"5\",\r\n          \"Question\": \"Apa yang bisa kamu
-    pegang namun tidak bisa kamu sentuh\",\r\n          \"Answer\": \"Janji\",\r\n         
-    \"Alasan\": \"Lisan yang dipegang\",\r\n          \"Clue\": \"_ _ _ _ _\",\r\n         
-    \"Help\": \"J _ _ _ _\"\r\n        },\r\n        {\r\n          \"ID\": \"6\",\r\n         
+    \"Clue\": \"_ _ _ _ _\",\r\n          \"Help\": \"M _ _ _ _\",\r\n          \"Choice\":
+    \"M,I,A,P,O,E,D\"\r\n        },\r\n        {\r\n          \"ID\": \"5\",\r\n         
+    \"Question\": \"Apa yang bisa kamu pegang namun tidak bisa kamu sentuh\",\r\n         
+    \"Answer\": \"Janji\",\r\n          \"Alasan\": \"Lisan yang dipegang\",\r\n         
+    \"Clue\": \"_ _ _ _ _\",\r\n          \"Help\": \"J _ _ _ _\",\r\n          \"Choice\":
+    \"J,A,N,O,I,E,U\"\r\n        },\r\n        {\r\n          \"ID\": \"6\",\r\n         
     \"Question\": \"Apa yang selalu naik namun tidak pernah turun\",\r\n         
     \"Answer\": \"Usia\",\r\n          \"Alasan\": \"Seumur hidup\",\r\n         
-    \"Clue\": \"_ _ _ _\",\r\n          \"Help\": \"U _ _ _ _\"\r\n        },\r\n       
-    {\r\n          \"ID\": \"7\",\r\n          \"Question\": \"Masih kecil hitam,
-    tetapi kalau sudah besar menjadi putih, apakah itu\",\r\n          \"Answer\":
-    \"Rambut\",\r\n          \"Alasan\": \"Proses alamiah\",\r\n          \"Clue\":
-    \"_ _ _ _ _\",\r\n          \"Help\": \"R _ _ _ _\"\r\n        },\r\n       
+    \"Clue\": \"_ _ _ _\",\r\n          \"Help\": \"U _ _ _ _\",\r\n          \"Choice\":
+    \"U,S,I,A,E,O\"\r\n        },\r\n        {\r\n          \"ID\": \"7\",\r\n         
+    \"Question\": \"Masih kecil hitam, tetapi kalau sudah besar menjadi putih, apakah
+    itu\",\r\n          \"Answer\": \"Rambut\",\r\n          \"Alasan\": \"Proses
+    alamiah\",\r\n          \"Clue\": \"_ _ _ _ _\",\r\n          \"Help\": \"R _
+    _ _ _\",\r\n          \"Choice\": \"R,A,M,B,U,T,E,I\"\r\n        },\r\n       
     {\r\n          \"ID\": \"8\",\r\n          \"Question\": \"Rokok apa yang tidak
     bisa dinyalakan\",\r\n          \"Answer\": \"Rokok elektrik\",\r\n         
     \"Alasan\": \"Tidak memerlukan bara\",\r\n          \"Clue\": \"_ _ _ _ _    
-    _ _ _ _ _ _ _ _\",\r\n          \"Help\": \"R _ _ _ _     E _ _ _ _ _ _ _\"\r\n       
-    },\r\n        {\r\n          \"ID\": \"9\",\r\n          \"Question\": \"Mana
-    yang lebih berat, satu ton bata atau satu ton besi\",\r\n          \"Answer\":
-    \"Sama\",\r\n          \"Alasan\": \"Ukuran berat\",\r\n          \"Clue\": \"_
-    _ _ _\",\r\n          \"Help\": \"S _ _ _\"\r\n        },\r\n        {\r\n         
-    \"ID\": \"10\",\r\n          \"Question\": \"Apa yang harus dipecah sebelum digunakannya\",\r\n         
-    \"Answer\": \"Telur\",\r\n          \"Alasan\": \"Umumnya yang digunakan isinya\",\r\n         
-    \"Clue\": \"_ _ _ _ _\",\r\n          \"Help\": \"T _ _ _ _\"\r\n        }\r\n     
-    ]\r\n    }\r\n  }\r\n]"
-  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"fdd0d525-c0e0-4a37-a578-9c76f7ff082f\"\r\n   
-    },\r\n    \"rs\": {\r\n      \"key\": \"Level 1 Question\",\r\n      \"type\":
-    \"json\",\r\n      \"schemaId\": null,\r\n      \"value\": [\r\n        {\r\n         
-    \"ID\": \"1\",\r\n          \"Question\": \"Telor apa yang bisa nyanyi\",\r\n         
-    \"Answer\": \"Telor Swift\",\r\n          \"Alasan\": \"Soalnya Taylor Swift\",\r\n         
-    \"Clue\": \"_ _ _ _ _   _ _ _ _ _\",\r\n          \"Help\": \"T _ _ O _   _ W
-    _ _ T\"\r\n        },\r\n        {\r\n          \"ID\": \"2\",\r\n          \"Question\":
-    \"Serangga apa yang ga mudah putus asa\",\r\n          \"Answer\": \"Ulet\",\r\n         
-    \"Alasan\": \"soalnya rajin dan ulet\",\r\n          \"Clue\": \"_ _ _ _\",\r\n         
-    \"Help\": \"U _ _ _ _\"\r\n        },\r\n        {\r\n          \"ID\": \"3\",\r\n         
-    \"Question\": \"tempat di jakarta yang iconic\",\r\n          \"Answer\": \"OHI\",\r\n         
-    \"Alasan\": \"Bundaran HI\",\r\n          \"Clue\": \"_ _ _\",\r\n          \"Help\":
-    \"O _ _\"\r\n        },\r\n        {\r\n          \"ID\": \"4\",\r\n         
+    _ _ _ _ _ _ _ _\",\r\n          \"Help\": \"R _ _ _ _     E _ _ _ _ _ _ _\",\r\n         
+    \"Choice\": \"R,O,K,A, ,D,L,E,T,U,I\"\r\n        },\r\n        {\r\n         
+    \"ID\": \"9\",\r\n          \"Question\": \"Mana yang lebih berat, satu ton bata
+    atau satu ton besi\",\r\n          \"Answer\": \"Sama\",\r\n          \"Alasan\":
+    \"Ukuran berat\",\r\n          \"Clue\": \"_ _ _ _\",\r\n          \"Help\":
+    \"S _ _ _\",\r\n          \"Choice\": \"S,A,M,B,T,E,I\"\r\n        },\r\n       
+    {\r\n          \"ID\": \"10\",\r\n          \"Question\": \"Apa yang harus dipecah
+    sebelum digunakannya\",\r\n          \"Answer\": \"Telur\",\r\n          \"Alasan\":
+    \"Umumnya yang digunakan isinya\",\r\n          \"Clue\": \"_ _ _ _ _\",\r\n         
+    \"Help\": \"T _ _ _ _\",\r\n          \"Choice\": \"T,E,L,U,R,A,D\"\r\n       
+    }\r\n      ]\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"11428e56-2f50-48a0-8226-b475cc7276c2\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"key\": \"Level_ID_002\",\r\n      \"type\": \"json\",\r\n      \"schemaId\":
+    null,\r\n      \"value\": [\r\n        {\r\n          \"\": \"11\",\r\n         
+    \"Question\": \"Anak siapa yang bisa bergerak cepat\",\r\n          \"Answer\":
+    \"Anak Panah\",\r\n          \"Alasan\": \"Lajunya sangat cepat\",\r\n         
+    \"Clue\": \"_ _ _ _    _ _ _ _  _\",\r\n          \"Help\": \"A _ _ _    P _
+    _ _  _\",\r\n          \"Choice\": \"A,N,I,K, ,P,O,H,U,E,D,F\"\r\n        },\r\n       
+    {\r\n          \"\": \"12\",\r\n          \"Question\": \"Kotak apa yang bisa
+    memberikan jabatan pada seseorang\",\r\n          \"Answer\": \"Kotak suara\",\r\n         
+    \"Alasan\": \"Umumnya dilakukan saat pemilihan\",\r\n          \"Clue\": \"_
+    _ _ _ _    _ _ _ _ _\",\r\n          \"Help\": \"K _ _ _ _    S _ _ _ _\",\r\n         
+    \"Choice\": \"K,O,T,A, ,S,U,E,R,I,D,F\"\r\n        },\r\n        {\r\n         
+    \"\": \"13\",\r\n          \"Question\": \"Hewan apa yang tidak pernah muda\",\r\n         
+    \"Answer\": \"Kakak tua\",\r\n          \"Alasan\": \"Sesuai dengan namanya\",\r\n         
+    \"Clue\": \"_ _ _ _ _    _ _ _\",\r\n          \"Help\": \"K _ _ _ _    T _ _\",\r\n         
+    \"Choice\": \"K,A,O,I,E, ,T,U,D,F,G\"\r\n        },\r\n        {\r\n         
+    \"\": \"14\",\r\n          \"Question\": \"Buah apa yang paling rajin\",\r\n         
+    \"Answer\": \"Apel pagi\",\r\n          \"Alasan\": \"Aktivitas yang biasa dilakukan
+    pegawai pagi hari\",\r\n          \"Clue\": \"_ _ _ _    _ _ _ _\",\r\n         
+    \"Help\": \"A _ _ _    P _ _ _\",\r\n          \"Choice\": \"A,P,E,L, ,O,U,G,I,D,F\"\r\n       
+    },\r\n        {\r\n          \"\": \"15\",\r\n          \"Question\": \"Buah
+    apa yang punya banyak uang\",\r\n          \"Answer\": \"Sri kaya\",\r\n         
+    \"Alasan\": \"Sesuai dengan namanya\",\r\n          \"Clue\": \"_ _ _    _ _
+    _ _\",\r\n          \"Help\": \"S _ _    K _ _ _\",\r\n          \"Choice\":
+    \"S,R,I, ,K,A,Y,E,O,U\"\r\n        },\r\n        {\r\n          \"\": \"16\",\r\n         
+    \"Question\": \"Daun apa yang tidak pernah gugur\",\r\n          \"Answer\":
+    \"Daun telinga\",\r\n          \"Alasan\": \"Sesuai dengan namanya\",\r\n         
+    \"Clue\": \"_ _ _ _    _ _ _ _ _ _ _\",\r\n          \"Help\": \"D _ _ _    T
+    _ _ _ _ _ _\",\r\n          \"Choice\": \"D,A,U,N, ,T,E,L,I,F,G,O,H,J\"\r\n       
+    },\r\n        {\r\n          \"\": \"17\",\r\n          \"Question\": \"Gajah
+    naik motor keliatan apanya\",\r\n          \"Answer\": \"Bohongnya\",\r\n         
+    \"Alasan\": \"Hal yang mustahil\",\r\n          \"Clue\": \"_ _ _ _ _ _ _ _ _\",\r\n         
+    \"Help\": \"B _ _ _ _ _ _ _ _\",\r\n          \"Choice\": \"B,O,H,I,N,G,E,Y,A,U,D\"\r\n       
+    },\r\n        {\r\n          \"\": \"18\",\r\n          \"Question\": \"Jauh
+    di mata, tapi dekat di hati, apakah itu\",\r\n          \"Answer\": \"Usus\",\r\n         
+    \"Alasan\": \"Sesuai dengan posisi organ\",\r\n          \"Clue\": \"_ _ _ _\",\r\n         
+    \"Help\": \"U _ _ _\",\r\n          \"Choice\": \"U,A,E,S,I,D\"\r\n        },\r\n       
+    {\r\n          \"\": \"19\",\r\n          \"Question\": \"Barangnya ada di leher
+    kemeja, binatangnya ada di atas bunga, benda apakah itu\",\r\n          \"Answer\":
+    \"Dasi kupu\",\r\n          \"Alasan\": \"Sesuai dengan jenisnya\",\r\n         
+    \"Clue\": \"_ _ _ _    _ _ _ _\",\r\n          \"Help\": \"D _ _ _    K _ _ _\",\r\n         
+    \"Choice\": \"D,A,S,I, ,K,U,P,E,O\"\r\n        },\r\n        {\r\n          \"\":
+    \"20\",\r\n          \"Question\": \"Benda apa yang kalau disambung akan lebih
+    pendek daripada diputus\",\r\n          \"Answer\": \"Kain sarung\",\r\n         
+    \"Alasan\": \"Benda yang biasa dipakai laki\",\r\n          \"Clue\": \"_ _ _
+    _    _ _ _ _ _ _\",\r\n          \"Help\": \"K _ _ _    S _ _ _ _ _\",\r\n         
+    \"Choice\": \"K,A,I,N, ,S,E,R,U,M,G\"\r\n        }\r\n      ]\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"6a2994f5-5b31-4e4e-b00d-4746b2ac5cbe\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Level_ID_003\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": [\r\n        {\r\n          \"ID\": \"21\",\r\n         
+    \"Question\": \"Apa yang dimiliki oleh semua orang, tetapi sering kali dibagikan\",\r\n         
+    \"Answer\": \"Nama\",\r\n          \"Alasan\": \"Nama dimiliki setiap orang\",\r\n         
+    \"Clue\": \"_ _ _ _\",\r\n          \"Help\": \"N _ _ _\",\r\n          \"Choice\":
+    \"N,A,M,E,O,U\"\r\n        },\r\n        {\r\n          \"ID\": \"22\",\r\n         
+    \"Question\": \"Yang palsu, laku, yang asli, malah enggak laku. Apa itu\",\r\n         
+    \"Answer\": \"Gigi palsu\",\r\n          \"Alasan\": \"Organ dilepas biasanya
+    karena rusak\",\r\n          \"Clue\": \"_ _ _ _    _ _ _ _ _\",\r\n         
+    \"Help\": \"G _ _ _    P _ _ _ _\",\r\n          \"Choice\": \"G,I,E,O, ,P,A,L,S,U,F,D\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"23\",\r\n          \"Question\": \"Bila
+    diinjak akan selalu ikut ke mana saja, jika tidak diinjak akan diam saja di tempat\",\r\n         
+    \"Answer\": \"Sandal Jepit\",\r\n          \"Alasan\": \"Benda sehari hari yang
+    pemakaiannya melekat\",\r\n          \"Clue\": \"_ _ _ _ _ _    _ _ _ _ _\",\r\n         
+    \"Help\": \"S _ _ _ _ _    J _ _ _ _\",\r\n          \"Choice\": \"S,A,N,D,O,L,
+    ,J,E,P,I,T,U,F\"\r\n        },\r\n        {\r\n          \"ID\": \"24\",\r\n         
+    \"Question\": \"Mata apa yang berfungsi untuk memotong\",\r\n          \"Answer\":
+    \"Mata pisau\",\r\n          \"Alasan\": \"Sesuai dengan namanya\",\r\n         
+    \"Clue\": \"_ _ _ _    _ _ _ _ _\",\r\n          \"Help\": \"M _ _ _    P _ _
+    _ _\",\r\n          \"Choice\": \"M,A,T,E, ,P,I,S,O,U,D,F\"\r\n        },\r\n       
+    {\r\n          \"ID\": \"25\",\r\n          \"Question\": \"Pembuat apa yang
+    karyanya diinjek-injek gak marah\",\r\n          \"Answer\": \"Pembuat sendal\",\r\n         
+    \"Alasan\": \"Sesuai dengan barang yang dibuatnya\",\r\n          \"Clue\": \"_
+    _ _ _ _ _ _    _ _ _ _ _ _\",\r\n          \"Help\": \"P _ _ _ _ _ _    S _ _
+    _ _ _\",\r\n          \"Choice\": \"P,E,M,B,U,A,T, ,S,O,N,D,I,L,F,G\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"26\",\r\n          \"Question\": \"Apa
+    yang bisa anda berikan kepada orang lain, tetapi tetap anda miliki\",\r\n         
+    \"Answer\": \"Saran\",\r\n          \"Alasan\": \"Sesuatu yang personal dan non
+    fisik\",\r\n          \"Clue\": \"_ _ _ _ _\",\r\n          \"Help\": \"S _ _
+    _ _\",\r\n          \"Choice\": \"S,A,R,E,N,O,I\"\r\n        },\r\n        {\r\n         
+    \"ID\": \"27\",\r\n          \"Question\": \"Apa yang kalau turun lama, kalau
+    naik cepat\",\r\n          \"Answer\": \"Ingus\",\r\n          \"Alasan\": \"Sesuai
+    dengan prilaku umumnya\",\r\n          \"Clue\": \"_ _ _ _ _\",\r\n         
+    \"Help\": \"I _ _ _ _\",\r\n          \"Choice\": \"I,N,G,U,S,A,O\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"28\",\r\n          \"Question\": \"Kalau
+    tidur, dia berdiri. Kalau berdiri, dia tidur. Apakah itu\",\r\n          \"Answer\":
+    \"Jempol Kaki\",\r\n          \"Alasan\": \"Sesuai dengan posisi umumnya\",\r\n         
+    \"Clue\": \"_ _ _ _ _ _    _ _ _ _\",\r\n          \"Help\": \"J _ _ _ _ _   
+    K _ _ _\",\r\n          \"Choice\": \"J,E,M,P,O,L, ,K,A,U,I,F,D\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"29\",\r\n          \"Question\": \"Apa
+    yang lebih panjang jika ditarik, lebih pendek jika ditekan, dan bisa menjadi
+    sangat kacau\",\r\n          \"Answer\": \"Tali sepatu\",\r\n          \"Alasan\":
+    \"Sesuai dengan prilaku umumnya\",\r\n          \"Clue\": \"_ _ _ _     _ _ _
+    _ _ _\",\r\n          \"Help\": \"T _ _ _     S _ _ _ _ _\",\r\n          \"Choice\":
+    \"T,A,L,I, ,S,E,P,O,T,U,D,F\"\r\n        },\r\n        {\r\n          \"ID\":
+    \"30\",\r\n          \"Question\": \"Binatang yang namanya hanya 2 huruf\",\r\n         
+    \"Answer\": \"PandA\",\r\n          \"Alasan\": \"Sesuai dengan namanya dalam
+    bahasa inggris\",\r\n          \"Clue\": \"_ _ _ _ _\",\r\n          \"Help\":
+    \"P _ _ _ _\",\r\n          \"Choice\": \"P,A,N,D,O,E,I\"\r\n        }\r\n     
+    ]\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"e43a3df7-f1f0-43bd-9d1c-7622600dd41b\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Level_ID_004\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": [\r\n        {\r\n          \"ID\": \"31\",\r\n         
+    \"Question\": \"Ditusuk bukan sate, dijaring bukan ikan\",\r\n          \"Answer\":
+    \"Konde\",\r\n          \"Alasan\": \"Sesuai dengan penggunaan umumnya\",\r\n         
+    \"Clue\": \"_ _ _ _ _\",\r\n          \"Help\": \"K _ _ _ _\",\r\n          \"Choice\":
+    \"K,O,N,D,E,U,I\"\r\n        },\r\n        {\r\n          \"ID\": \"32\",\r\n         
+    \"Question\": \"Saat di balik akan berkurang 3. Apakah itu\",\r\n          \"Answer\":
+    \"Sembilan\",\r\n          \"Alasan\": \"Angka yang dibalik\",\r\n          \"Clue\":
+    \"_ _ _ _ _ _ _ _\",\r\n          \"Help\": \"S _ _ _ _ L _ _\",\r\n         
+    \"Choice\": \"S,E,M,B,I,L,A,N,O,U\"\r\n        },\r\n        {\r\n          \"ID\":
+    \"33\",\r\n          \"Question\": \"Benda apa keluar ketika diputar\",\r\n         
+    \"Answer\": \"Lipstik bibir\",\r\n          \"Alasan\": \"Sesuai dengan penggunaan
+    umumnya\",\r\n          \"Clue\": \"_ _ _ _ _ _ _     _ _ _ _ _\",\r\n         
+    \"Help\": \"L _ _ _ _ _ _     B _ _ _ _\",\r\n          \"Choice\": \"L,I,P,S,T,O,K,
+    ,B,A,U,E,F,R,D\"\r\n        },\r\n        {\r\n          \"ID\": \"34\",\r\n         
+    \"Question\": \"Seorang pria terjebak di dalam gua, ia kebingungan karena gua
+    tersebut gelap. Di tangannya ada lilin dan obor. Apa yang harus ia nyalakan terlebih
+    dahulu\",\r\n          \"Answer\": \"korek api\",\r\n          \"Alasan\": \"Sesuai
+    logika umumnya\",\r\n          \"Clue\": \"_ _ _ _ _     _ _ _\",\r\n         
+    \"Help\": \"K _ _ _ _     A _ _\",\r\n          \"Choice\": \"K,O,R,E,U, ,A,P,I,D,F\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"35\",\r\n          \"Question\": \"Kalau
+    sedang sendiri, kakinya ada empat, kalau berdua, kakinya jadi ada delapan. Siapakah
+    aku\",\r\n          \"Answer\": \"Kursi\",\r\n          \"Alasan\": \"Benda yang
+    umumnya digunakan\",\r\n          \"Clue\": \"_ _ _ _ _\",\r\n          \"Help\":
+    \"K _ _ _ _\",\r\n          \"Choice\": \"K,U,R,S,I,O,E\"\r\n        },\r\n       
+    {\r\n          \"ID\": \"36\",\r\n          \"Question\": \"Apa yang selalu ada
+    di belakang mata, tetapi tidak pernah bisa Anda lihat\",\r\n          \"Answer\":
+    \"Kelopak mata\",\r\n          \"Alasan\": \"Bagian dari organ\",\r\n         
+    \"Clue\": \"_ _ _ _ _ _ _    _ _ _ _\",\r\n          \"Help\": \"K _ _ _ _ _
+    _    M _ _ _\",\r\n          \"Choice\": \"K,E,L,O,P,A,U, ,M,I,T,D,F,G\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"37\",\r\n          \"Question\": \"Mata
+    apa yang nggak pake kacamata\",\r\n          \"Answer\": \"Mata kaki\",\r\n         
+    \"Alasan\": \"Sesuai dengan namanya\",\r\n          \"Clue\": \"_ _ _ _ _   
+    _ _ _ _\",\r\n          \"Help\": \"M _ _ _ _    K _ _ _\",\r\n          \"Choice\":
+    \"M,A,T,U, ,K,E,D,I,F,G\"\r\n        },\r\n        {\r\n          \"ID\": \"38\",\r\n         
+    \"Question\": \"Cuci apa yang tidak pernah menggunakan sabun\",\r\n         
+    \"Answer\": \"Cuci mata\",\r\n          \"Alasan\": \"Sesuai dengan nama perumpaanya\",\r\n         
+    \"Clue\": \"_ _ _ _    _ _ _ _\",\r\n          \"Help\": \"C _ _ _    M  _ _
+    _\",\r\n          \"Choice\": \"C,U,E,I, ,M,A,T,O,D,F\"\r\n        },\r\n       
+    {\r\n          \"ID\": \"39\",\r\n          \"Question\": \"Ada di depan mata
+    tapi tak terlihat, apakah itu\",\r\n          \"Answer\": \"Bulu mata\",\r\n         
+    \"Alasan\": \"Bagian dari organ\",\r\n          \"Clue\": \"_ _ _ _    _ _ _
+    _\",\r\n          \"Help\": \"B _ _ _    M _ _ _\",\r\n          \"Choice\":
+    \"B,U,L,E, ,M,I,T,A,D,F\"\r\n        },\r\n        {\r\n          \"ID\": \"40\",\r\n         
+    \"Question\": \"Masih kecil hitam, tetapi kalau sudah besar menjadi putih, apakah
+    itu\",\r\n          \"Answer\": \"Rambut\",\r\n          \"Alasan\": \"Sesuai
+    dengan perubahan alamiahnya\",\r\n          \"Clue\": \"_ _ _ _ _ _\",\r\n         
+    \"Help\": \"R _ _ _ _ _\",\r\n          \"Choice\": \"R,A,M,B,U,T,O,E\"\r\n       
+    }\r\n      ]\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"6f563ee1-b8c3-4eb9-93da-99882f5f5c73\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"key\": \"Level_ID_005\",\r\n      \"type\": \"json\",\r\n      \"schemaId\":
+    null,\r\n      \"value\": [\r\n        {\r\n          \"ID\": \"41\",\r\n         
+    \"Question\": \"Punya lengan tapi tak punya jari, punya leher tapi tak punya
+    kepala, apakah itu\",\r\n          \"Answer\": \"Baju\",\r\n          \"Alasan\":
+    \"Sesuai dengan penggunaanya\",\r\n          \"Clue\": \"_ _ _ _\",\r\n         
+    \"Help\": \"B _ _ _\",\r\n          \"Choice\": \"B,A,J,U,O,E\"\r\n        },\r\n       
+    {\r\n          \"ID\": \"42\",\r\n          \"Question\": \"Mata apa yang berfungsi
+    untuk memotong\",\r\n          \"Answer\": \"Mata pisau\",\r\n          \"Alasan\":
+    \"Sesuai dengan namanya\",\r\n          \"Clue\": \"_ _ _ _    _ _ _ _ _\",\r\n         
+    \"Help\": \"M _ _ _    P _ _ _ _\",\r\n          \"Choice\": \"M,A,T,E, ,P,I,S,O,U,D,F\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"43\",\r\n          \"Question\": \"Jika
+    dibutuhkan waktu 10 menit untuk merebus 1 butir telur, berapa menit waktu yang
+    diperlukan untuk merebus 5 butir telur\",\r\n          \"Answer\": \"10\",\r\n         
+    \"Alasan\": \"Sesuai dengan logika umumnya\",\r\n          \"Clue\": \"_ _\",\r\n         
+    \"Help\": \"1 _\",\r\n          \"Choice\": \"1,0,2,3\"\r\n        },\r\n       
+    {\r\n          \"ID\": \"44\",\r\n          \"Question\": \"Dipeluk bukannya
+    anak, dipetik bukannya buah, lalu apakah itu\",\r\n          \"Answer\": \"Gitar\",\r\n         
+    \"Alasan\": \"Sesuai dengan caranya penggunaan umumnya\",\r\n          \"Clue\":
+    \"_ _ _ _ _\",\r\n          \"Help\": \"G _ _ _ _\",\r\n          \"Choice\":
+    \"G,I,T,A,R,O,E\"\r\n        },\r\n        {\r\n          \"ID\": \"45\",\r\n         
+    \"Question\": \"Menteri apa yang kepalanya selalu dipegang-pegang\",\r\n         
+    \"Answer\": \"Menteri catur\",\r\n          \"Alasan\": \"Sesuai dengan penggunaan
+    umumnya\",\r\n          \"Clue\": \"_ _ _ _ _ _ _    _ _ _ _ _\",\r\n         
+    \"Help\": \"M _ _ _ _ _ _    C _ _ _ _\",\r\n          \"Choice\": \"M,E,N,T,U,R,I,
+    ,C,A,O,D,F,G\"\r\n        },\r\n        {\r\n          \"ID\": \"46\",\r\n         
+    \"Question\": \"Kotak apa yang bisa memberikan jabatan pada seseorang\",\r\n         
+    \"Answer\": \"Kotak suara\",\r\n          \"Alasan\": \"Benda yang umumnya digunakan\",\r\n         
+    \"Clue\": \"_ _ _ _ _    _ _ _ _ _\",\r\n          \"Help\": \"K _ _ _ _    S
+    _ _ _ _\",\r\n          \"Choice\": \"K,O,T,A,E, ,S,U,I,R,D,F,G\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"47\",\r\n          \"Question\": \"Setiap
+    suku pasti akan ada kepala sukunya, lalu suku apa yang tidak memiliki kepala
+    suku\",\r\n          \"Answer\": \"Suku cadang\",\r\n          \"Alasan\": \"Sesuai
+    dengan namanya\",\r\n          \"Clue\": \"_ _ _ _    _ _ _ _ _ _\",\r\n         
+    \"Help\": \"S _ _ _    C _ _ _ _ _\",\r\n          \"Choice\": \"S,U,K,O, ,C,A,D,I,N,G,F,G\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"48\",\r\n          \"Question\": \"Begadang
+    bukan penjaga malam, mendengung bukan sirene, menyengat bukan lebah. Hewan apakah
+    aku\",\r\n          \"Answer\": \"Nyamuk\",\r\n          \"Alasan\": \"Sesuai
+    dengan prilaku umumnya\",\r\n          \"Clue\": \"_ _ _ _ _ _\",\r\n         
+    \"Help\": \"N _ _ _ _ _\",\r\n          \"Choice\": \"N,Y,A,M,U,K,D,F\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"49\",\r\n          \"Question\": \"Nama
+    kota yang pahit\",\r\n          \"Answer\": \"Pare Pare\",\r\n          \"Alasan\":
+    \"Sesuai dengan namanya\",\r\n          \"Clue\": \"_ _ _ _    _ _ _ _\",\r\n         
+    \"Help\": \"P _ _ _    P  _ _ _\",\r\n          \"Choice\": \"P,A,R,E, ,O,I,D,F,G,H\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"50\",\r\n          \"Question\": \"Habis
+    mandi tidurnya di bawah terik sinar matahari, apakah itu\",\r\n          \"Answer\":
+    \"Jemuran\",\r\n          \"Alasan\": \"Sesuai dengan perlakuan umumnya\",\r\n         
+    \"Clue\": \"_ _ _ _ _ _ _\",\r\n          \"Help\": \"J _ _ _ _ _ _\",\r\n         
+    \"Choice\": \"J,E,M,U,R,A,N,O,I\"\r\n        }\r\n      ]\r\n    }\r\n  }\r\n]"
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"90b6c4c7-ea54-4ba1-bbcb-0fa026705973\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Level_Data\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": [\r\n        {\r\n          \"LevelID\":
+    \"Level_ID_001\",\r\n          \"LevelName\": \"Rumah\"\r\n        },\r\n       
+    {\r\n          \"LevelID\": \"Level_ID_002\",\r\n          \"LevelName\": \"Tetangga\"\r\n       
+    },\r\n        {\r\n          \"LevelID\": \"Level_ID_003\",\r\n          \"LevelName\":
+    \"Pos Kamling\"\r\n        },\r\n        {\r\n          \"LevelID\": \"Level_ID_004\",\r\n         
+    \"LevelName\": \"Warung Kopi\"\r\n        },\r\n        {\r\n          \"LevelID\":
+    \"Level_ID_005\",\r\n          \"LevelName\": \"Industri\"\r\n        }\r\n     
+    ]\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"ebe932e9-1bd4-404c-b571-94e2af697a07\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Level_ID_001\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": [\r\n        {\r\n          \"ID\": \"1\",\r\n         
+    \"Question\": \"Telor apa yang bisa nyanyi\",\r\n          \"Answer\": \"Telor
+    Swift\",\r\n          \"Alasan\": \"Soalnya Taylor Swift\",\r\n          \"Clue\":
+    \"_ _ _ _ _   _ _ _ _ _\",\r\n          \"Help\": \"T _ _ O _   _ W _ _ T\",\r\n         
+    \"Choice\": \"T,E,L,O,R, ,S,W,I,F,A,U\"\r\n        },\r\n        {\r\n         
+    \"ID\": \"2\",\r\n          \"Question\": \"Serangga apa yang ga mudah putus
+    asa\",\r\n          \"Answer\": \"Ulet\",\r\n          \"Alasan\": \"soalnya
+    rajin dan ulet\",\r\n          \"Clue\": \"_ _ _ _\",\r\n          \"Help\":
+    \"U _ _ _ _\",\r\n          \"Choice\": \"U,L,E,T,S,O\"\r\n        },\r\n       
+    {\r\n          \"ID\": \"3\",\r\n          \"Question\": \"tempat di jakarta
+    yang iconic\",\r\n          \"Answer\": \"OHI\",\r\n          \"Alasan\": \"Bundaran
+    HI\",\r\n          \"Clue\": \"_ _ _\",\r\n          \"Help\": \"O _ _\",\r\n         
+    \"Choice\": \"O,H,I,T,A\"\r\n        },\r\n        {\r\n          \"ID\": \"4\",\r\n         
     \"Question\": \"Apa yang selalu ada ketika tidur namun menghilang saat bangun?\",\r\n         
     \"Answer\": \"Mimpi\",\r\n          \"Alasan\": \"Bunga tidur\",\r\n         
-    \"Clue\": \"_ _ _ _ _\",\r\n          \"Help\": \"M _ _ _ _\"\r\n        },\r\n       
-    {\r\n          \"ID\": \"5\",\r\n          \"Question\": \"Apa yang bisa kamu
-    pegang namun tidak bisa kamu sentuh\",\r\n          \"Answer\": \"Janji\",\r\n         
-    \"Alasan\": \"Lisan yang dipegang\",\r\n          \"Clue\": \"_ _ _ _ _\",\r\n         
-    \"Help\": \"J _ _ _ _\"\r\n        },\r\n        {\r\n          \"ID\": \"6\",\r\n         
+    \"Clue\": \"_ _ _ _ _\",\r\n          \"Help\": \"M _ _ _ _\",\r\n          \"Choice\":
+    \"M,I,A,P,O,E,D\"\r\n        },\r\n        {\r\n          \"ID\": \"5\",\r\n         
+    \"Question\": \"Apa yang bisa kamu pegang namun tidak bisa kamu sentuh\",\r\n         
+    \"Answer\": \"Janji\",\r\n          \"Alasan\": \"Lisan yang dipegang\",\r\n         
+    \"Clue\": \"_ _ _ _ _\",\r\n          \"Help\": \"J _ _ _ _\",\r\n          \"Choice\":
+    \"J,A,N,O,I,E,U\"\r\n        },\r\n        {\r\n          \"ID\": \"6\",\r\n         
     \"Question\": \"Apa yang selalu naik namun tidak pernah turun\",\r\n         
     \"Answer\": \"Usia\",\r\n          \"Alasan\": \"Seumur hidup\",\r\n         
-    \"Clue\": \"_ _ _ _\",\r\n          \"Help\": \"U _ _ _ _\"\r\n        },\r\n       
-    {\r\n          \"ID\": \"7\",\r\n          \"Question\": \"Masih kecil hitam,
-    tetapi kalau sudah besar menjadi putih, apakah itu\",\r\n          \"Answer\":
-    \"Rambut\",\r\n          \"Alasan\": \"Proses alamiah\",\r\n          \"Clue\":
-    \"_ _ _ _ _\",\r\n          \"Help\": \"R _ _ _ _\"\r\n        },\r\n       
+    \"Clue\": \"_ _ _ _\",\r\n          \"Help\": \"U _ _ _ _\",\r\n          \"Choice\":
+    \"U,S,I,A,E,O\"\r\n        },\r\n        {\r\n          \"ID\": \"7\",\r\n         
+    \"Question\": \"Masih kecil hitam, tetapi kalau sudah besar menjadi putih, apakah
+    itu\",\r\n          \"Answer\": \"Rambut\",\r\n          \"Alasan\": \"Proses
+    alamiah\",\r\n          \"Clue\": \"_ _ _ _ _\",\r\n          \"Help\": \"R _
+    _ _ _\",\r\n          \"Choice\": \"R,A,M,B,U,T,E,I\"\r\n        },\r\n       
     {\r\n          \"ID\": \"8\",\r\n          \"Question\": \"Rokok apa yang tidak
     bisa dinyalakan\",\r\n          \"Answer\": \"Rokok elektrik\",\r\n         
     \"Alasan\": \"Tidak memerlukan bara\",\r\n          \"Clue\": \"_ _ _ _ _    
-    _ _ _ _ _ _ _ _\",\r\n          \"Help\": \"R _ _ _ _     E _ _ _ _ _ _ _\"\r\n       
-    },\r\n        {\r\n          \"ID\": \"9\",\r\n          \"Question\": \"Mana
-    yang lebih berat, satu ton bata atau satu ton besi\",\r\n          \"Answer\":
-    \"Sama\",\r\n          \"Alasan\": \"Ukuran berat\",\r\n          \"Clue\": \"_
-    _ _ _\",\r\n          \"Help\": \"S _ _ _\"\r\n        },\r\n        {\r\n         
-    \"ID\": \"10\",\r\n          \"Question\": \"Apa yang harus dipecah sebelum digunakannya\",\r\n         
-    \"Answer\": \"Telur\",\r\n          \"Alasan\": \"Umumnya yang digunakan isinya\",\r\n         
-    \"Clue\": \"_ _ _ _ _\",\r\n          \"Help\": \"T _ _ _ _\"\r\n        }\r\n     
-    ]\r\n    }\r\n  }\r\n]"
+    _ _ _ _ _ _ _ _\",\r\n          \"Help\": \"R _ _ _ _     E _ _ _ _ _ _ _\",\r\n         
+    \"Choice\": \"R,O,K,A, ,D,L,E,T,U,I\"\r\n        },\r\n        {\r\n         
+    \"ID\": \"9\",\r\n          \"Question\": \"Mana yang lebih berat, satu ton bata
+    atau satu ton besi\",\r\n          \"Answer\": \"Sama\",\r\n          \"Alasan\":
+    \"Ukuran berat\",\r\n          \"Clue\": \"_ _ _ _\",\r\n          \"Help\":
+    \"S _ _ _\",\r\n          \"Choice\": \"S,A,M,B,T,E,I\"\r\n        },\r\n       
+    {\r\n          \"ID\": \"10\",\r\n          \"Question\": \"Apa yang harus dipecah
+    sebelum digunakannya\",\r\n          \"Answer\": \"Telur\",\r\n          \"Alasan\":
+    \"Umumnya yang digunakan isinya\",\r\n          \"Clue\": \"_ _ _ _ _\",\r\n         
+    \"Help\": \"T _ _ _ _\",\r\n          \"Choice\": \"T,E,L,U,R,A,D\"\r\n       
+    }\r\n      ]\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"11428e56-2f50-48a0-8226-b475cc7276c2\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"key\": \"Level_ID_002\",\r\n      \"type\": \"json\",\r\n      \"schemaId\":
+    null,\r\n      \"value\": [\r\n        {\r\n          \"\": \"11\",\r\n         
+    \"Question\": \"Anak siapa yang bisa bergerak cepat\",\r\n          \"Answer\":
+    \"Anak Panah\",\r\n          \"Alasan\": \"Lajunya sangat cepat\",\r\n         
+    \"Clue\": \"_ _ _ _    _ _ _ _  _\",\r\n          \"Help\": \"A _ _ _    P _
+    _ _  _\",\r\n          \"Choice\": \"A,N,I,K, ,P,O,H,U,E,D,F\"\r\n        },\r\n       
+    {\r\n          \"\": \"12\",\r\n          \"Question\": \"Kotak apa yang bisa
+    memberikan jabatan pada seseorang\",\r\n          \"Answer\": \"Kotak suara\",\r\n         
+    \"Alasan\": \"Umumnya dilakukan saat pemilihan\",\r\n          \"Clue\": \"_
+    _ _ _ _    _ _ _ _ _\",\r\n          \"Help\": \"K _ _ _ _    S _ _ _ _\",\r\n         
+    \"Choice\": \"K,O,T,A, ,S,U,E,R,I,D,F\"\r\n        },\r\n        {\r\n         
+    \"\": \"13\",\r\n          \"Question\": \"Hewan apa yang tidak pernah muda\",\r\n         
+    \"Answer\": \"Kakak tua\",\r\n          \"Alasan\": \"Sesuai dengan namanya\",\r\n         
+    \"Clue\": \"_ _ _ _ _    _ _ _\",\r\n          \"Help\": \"K _ _ _ _    T _ _\",\r\n         
+    \"Choice\": \"K,A,O,I,E, ,T,U,D,F,G\"\r\n        },\r\n        {\r\n         
+    \"\": \"14\",\r\n          \"Question\": \"Buah apa yang paling rajin\",\r\n         
+    \"Answer\": \"Apel pagi\",\r\n          \"Alasan\": \"Aktivitas yang biasa dilakukan
+    pegawai pagi hari\",\r\n          \"Clue\": \"_ _ _ _    _ _ _ _\",\r\n         
+    \"Help\": \"A _ _ _    P _ _ _\",\r\n          \"Choice\": \"A,P,E,L, ,O,U,G,I,D,F\"\r\n       
+    },\r\n        {\r\n          \"\": \"15\",\r\n          \"Question\": \"Buah
+    apa yang punya banyak uang\",\r\n          \"Answer\": \"Sri kaya\",\r\n         
+    \"Alasan\": \"Sesuai dengan namanya\",\r\n          \"Clue\": \"_ _ _    _ _
+    _ _\",\r\n          \"Help\": \"S _ _    K _ _ _\",\r\n          \"Choice\":
+    \"S,R,I, ,K,A,Y,E,O,U\"\r\n        },\r\n        {\r\n          \"\": \"16\",\r\n         
+    \"Question\": \"Daun apa yang tidak pernah gugur\",\r\n          \"Answer\":
+    \"Daun telinga\",\r\n          \"Alasan\": \"Sesuai dengan namanya\",\r\n         
+    \"Clue\": \"_ _ _ _    _ _ _ _ _ _ _\",\r\n          \"Help\": \"D _ _ _    T
+    _ _ _ _ _ _\",\r\n          \"Choice\": \"D,A,U,N, ,T,E,L,I,F,G,O,H,J\"\r\n       
+    },\r\n        {\r\n          \"\": \"17\",\r\n          \"Question\": \"Gajah
+    naik motor keliatan apanya\",\r\n          \"Answer\": \"Bohongnya\",\r\n         
+    \"Alasan\": \"Hal yang mustahil\",\r\n          \"Clue\": \"_ _ _ _ _ _ _ _ _\",\r\n         
+    \"Help\": \"B _ _ _ _ _ _ _ _\",\r\n          \"Choice\": \"B,O,H,I,N,G,E,Y,A,U,D\"\r\n       
+    },\r\n        {\r\n          \"\": \"18\",\r\n          \"Question\": \"Jauh
+    di mata, tapi dekat di hati, apakah itu\",\r\n          \"Answer\": \"Usus\",\r\n         
+    \"Alasan\": \"Sesuai dengan posisi organ\",\r\n          \"Clue\": \"_ _ _ _\",\r\n         
+    \"Help\": \"U _ _ _\",\r\n          \"Choice\": \"U,A,E,S,I,D\"\r\n        },\r\n       
+    {\r\n          \"\": \"19\",\r\n          \"Question\": \"Barangnya ada di leher
+    kemeja, binatangnya ada di atas bunga, benda apakah itu\",\r\n          \"Answer\":
+    \"Dasi kupu\",\r\n          \"Alasan\": \"Sesuai dengan jenisnya\",\r\n         
+    \"Clue\": \"_ _ _ _    _ _ _ _\",\r\n          \"Help\": \"D _ _ _    K _ _ _\",\r\n         
+    \"Choice\": \"D,A,S,I, ,K,U,P,E,O\"\r\n        },\r\n        {\r\n          \"\":
+    \"20\",\r\n          \"Question\": \"Benda apa yang kalau disambung akan lebih
+    pendek daripada diputus\",\r\n          \"Answer\": \"Kain sarung\",\r\n         
+    \"Alasan\": \"Benda yang biasa dipakai laki\",\r\n          \"Clue\": \"_ _ _
+    _    _ _ _ _ _ _\",\r\n          \"Help\": \"K _ _ _    S _ _ _ _ _\",\r\n         
+    \"Choice\": \"K,A,I,N, ,S,E,R,U,M,G\"\r\n        }\r\n      ]\r\n    }\r\n  },\r\n 
+    {\r\n    \"metadata\": {\r\n      \"entityId\": \"6a2994f5-5b31-4e4e-b00d-4746b2ac5cbe\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Level_ID_003\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": [\r\n        {\r\n          \"ID\": \"21\",\r\n         
+    \"Question\": \"Apa yang dimiliki oleh semua orang, tetapi sering kali dibagikan\",\r\n         
+    \"Answer\": \"Nama\",\r\n          \"Alasan\": \"Nama dimiliki setiap orang\",\r\n         
+    \"Clue\": \"_ _ _ _\",\r\n          \"Help\": \"N _ _ _\",\r\n          \"Choice\":
+    \"N,A,M,E,O,U\"\r\n        },\r\n        {\r\n          \"ID\": \"22\",\r\n         
+    \"Question\": \"Yang palsu, laku, yang asli, malah enggak laku. Apa itu\",\r\n         
+    \"Answer\": \"Gigi palsu\",\r\n          \"Alasan\": \"Organ dilepas biasanya
+    karena rusak\",\r\n          \"Clue\": \"_ _ _ _    _ _ _ _ _\",\r\n         
+    \"Help\": \"G _ _ _    P _ _ _ _\",\r\n          \"Choice\": \"G,I,E,O, ,P,A,L,S,U,F,D\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"23\",\r\n          \"Question\": \"Bila
+    diinjak akan selalu ikut ke mana saja, jika tidak diinjak akan diam saja di tempat\",\r\n         
+    \"Answer\": \"Sandal Jepit\",\r\n          \"Alasan\": \"Benda sehari hari yang
+    pemakaiannya melekat\",\r\n          \"Clue\": \"_ _ _ _ _ _    _ _ _ _ _\",\r\n         
+    \"Help\": \"S _ _ _ _ _    J _ _ _ _\",\r\n          \"Choice\": \"S,A,N,D,O,L,
+    ,J,E,P,I,T,U,F\"\r\n        },\r\n        {\r\n          \"ID\": \"24\",\r\n         
+    \"Question\": \"Mata apa yang berfungsi untuk memotong\",\r\n          \"Answer\":
+    \"Mata pisau\",\r\n          \"Alasan\": \"Sesuai dengan namanya\",\r\n         
+    \"Clue\": \"_ _ _ _    _ _ _ _ _\",\r\n          \"Help\": \"M _ _ _    P _ _
+    _ _\",\r\n          \"Choice\": \"M,A,T,E, ,P,I,S,O,U,D,F\"\r\n        },\r\n       
+    {\r\n          \"ID\": \"25\",\r\n          \"Question\": \"Pembuat apa yang
+    karyanya diinjek-injek gak marah\",\r\n          \"Answer\": \"Pembuat sendal\",\r\n         
+    \"Alasan\": \"Sesuai dengan barang yang dibuatnya\",\r\n          \"Clue\": \"_
+    _ _ _ _ _ _    _ _ _ _ _ _\",\r\n          \"Help\": \"P _ _ _ _ _ _    S _ _
+    _ _ _\",\r\n          \"Choice\": \"P,E,M,B,U,A,T, ,S,O,N,D,I,L,F,G\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"26\",\r\n          \"Question\": \"Apa
+    yang bisa anda berikan kepada orang lain, tetapi tetap anda miliki\",\r\n         
+    \"Answer\": \"Saran\",\r\n          \"Alasan\": \"Sesuatu yang personal dan non
+    fisik\",\r\n          \"Clue\": \"_ _ _ _ _\",\r\n          \"Help\": \"S _ _
+    _ _\",\r\n          \"Choice\": \"S,A,R,E,N,O,I\"\r\n        },\r\n        {\r\n         
+    \"ID\": \"27\",\r\n          \"Question\": \"Apa yang kalau turun lama, kalau
+    naik cepat\",\r\n          \"Answer\": \"Ingus\",\r\n          \"Alasan\": \"Sesuai
+    dengan prilaku umumnya\",\r\n          \"Clue\": \"_ _ _ _ _\",\r\n         
+    \"Help\": \"I _ _ _ _\",\r\n          \"Choice\": \"I,N,G,U,S,A,O\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"28\",\r\n          \"Question\": \"Kalau
+    tidur, dia berdiri. Kalau berdiri, dia tidur. Apakah itu\",\r\n          \"Answer\":
+    \"Jempol Kaki\",\r\n          \"Alasan\": \"Sesuai dengan posisi umumnya\",\r\n         
+    \"Clue\": \"_ _ _ _ _ _    _ _ _ _\",\r\n          \"Help\": \"J _ _ _ _ _   
+    K _ _ _\",\r\n          \"Choice\": \"J,E,M,P,O,L, ,K,A,U,I,F,D\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"29\",\r\n          \"Question\": \"Apa
+    yang lebih panjang jika ditarik, lebih pendek jika ditekan, dan bisa menjadi
+    sangat kacau\",\r\n          \"Answer\": \"Tali sepatu\",\r\n          \"Alasan\":
+    \"Sesuai dengan prilaku umumnya\",\r\n          \"Clue\": \"_ _ _ _     _ _ _
+    _ _ _\",\r\n          \"Help\": \"T _ _ _     S _ _ _ _ _\",\r\n          \"Choice\":
+    \"T,A,L,I, ,S,E,P,O,T,U,D,F\"\r\n        },\r\n        {\r\n          \"ID\":
+    \"30\",\r\n          \"Question\": \"Binatang yang namanya hanya 2 huruf\",\r\n         
+    \"Answer\": \"PandA\",\r\n          \"Alasan\": \"Sesuai dengan namanya dalam
+    bahasa inggris\",\r\n          \"Clue\": \"_ _ _ _ _\",\r\n          \"Help\":
+    \"P _ _ _ _\",\r\n          \"Choice\": \"P,A,N,D,O,E,I\"\r\n        }\r\n     
+    ]\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"e43a3df7-f1f0-43bd-9d1c-7622600dd41b\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Level_ID_004\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": [\r\n        {\r\n          \"ID\": \"31\",\r\n         
+    \"Question\": \"Ditusuk bukan sate, dijaring bukan ikan\",\r\n          \"Answer\":
+    \"Konde\",\r\n          \"Alasan\": \"Sesuai dengan penggunaan umumnya\",\r\n         
+    \"Clue\": \"_ _ _ _ _\",\r\n          \"Help\": \"K _ _ _ _\",\r\n          \"Choice\":
+    \"K,O,N,D,E,U,I\"\r\n        },\r\n        {\r\n          \"ID\": \"32\",\r\n         
+    \"Question\": \"Saat di balik akan berkurang 3. Apakah itu\",\r\n          \"Answer\":
+    \"Sembilan\",\r\n          \"Alasan\": \"Angka yang dibalik\",\r\n          \"Clue\":
+    \"_ _ _ _ _ _ _ _\",\r\n          \"Help\": \"S _ _ _ _ L _ _\",\r\n         
+    \"Choice\": \"S,E,M,B,I,L,A,N,O,U\"\r\n        },\r\n        {\r\n          \"ID\":
+    \"33\",\r\n          \"Question\": \"Benda apa keluar ketika diputar\",\r\n         
+    \"Answer\": \"Lipstik bibir\",\r\n          \"Alasan\": \"Sesuai dengan penggunaan
+    umumnya\",\r\n          \"Clue\": \"_ _ _ _ _ _ _     _ _ _ _ _\",\r\n         
+    \"Help\": \"L _ _ _ _ _ _     B _ _ _ _\",\r\n          \"Choice\": \"L,I,P,S,T,O,K,
+    ,B,A,U,E,F,R,D\"\r\n        },\r\n        {\r\n          \"ID\": \"34\",\r\n         
+    \"Question\": \"Seorang pria terjebak di dalam gua, ia kebingungan karena gua
+    tersebut gelap. Di tangannya ada lilin dan obor. Apa yang harus ia nyalakan terlebih
+    dahulu\",\r\n          \"Answer\": \"korek api\",\r\n          \"Alasan\": \"Sesuai
+    logika umumnya\",\r\n          \"Clue\": \"_ _ _ _ _     _ _ _\",\r\n         
+    \"Help\": \"K _ _ _ _     A _ _\",\r\n          \"Choice\": \"K,O,R,E,U, ,A,P,I,D,F\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"35\",\r\n          \"Question\": \"Kalau
+    sedang sendiri, kakinya ada empat, kalau berdua, kakinya jadi ada delapan. Siapakah
+    aku\",\r\n          \"Answer\": \"Kursi\",\r\n          \"Alasan\": \"Benda yang
+    umumnya digunakan\",\r\n          \"Clue\": \"_ _ _ _ _\",\r\n          \"Help\":
+    \"K _ _ _ _\",\r\n          \"Choice\": \"K,U,R,S,I,O,E\"\r\n        },\r\n       
+    {\r\n          \"ID\": \"36\",\r\n          \"Question\": \"Apa yang selalu ada
+    di belakang mata, tetapi tidak pernah bisa Anda lihat\",\r\n          \"Answer\":
+    \"Kelopak mata\",\r\n          \"Alasan\": \"Bagian dari organ\",\r\n         
+    \"Clue\": \"_ _ _ _ _ _ _    _ _ _ _\",\r\n          \"Help\": \"K _ _ _ _ _
+    _    M _ _ _\",\r\n          \"Choice\": \"K,E,L,O,P,A,U, ,M,I,T,D,F,G\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"37\",\r\n          \"Question\": \"Mata
+    apa yang nggak pake kacamata\",\r\n          \"Answer\": \"Mata kaki\",\r\n         
+    \"Alasan\": \"Sesuai dengan namanya\",\r\n          \"Clue\": \"_ _ _ _ _   
+    _ _ _ _\",\r\n          \"Help\": \"M _ _ _ _    K _ _ _\",\r\n          \"Choice\":
+    \"M,A,T,U, ,K,E,D,I,F,G\"\r\n        },\r\n        {\r\n          \"ID\": \"38\",\r\n         
+    \"Question\": \"Cuci apa yang tidak pernah menggunakan sabun\",\r\n         
+    \"Answer\": \"Cuci mata\",\r\n          \"Alasan\": \"Sesuai dengan nama perumpaanya\",\r\n         
+    \"Clue\": \"_ _ _ _    _ _ _ _\",\r\n          \"Help\": \"C _ _ _    M  _ _
+    _\",\r\n          \"Choice\": \"C,U,E,I, ,M,A,T,O,D,F\"\r\n        },\r\n       
+    {\r\n          \"ID\": \"39\",\r\n          \"Question\": \"Ada di depan mata
+    tapi tak terlihat, apakah itu\",\r\n          \"Answer\": \"Bulu mata\",\r\n         
+    \"Alasan\": \"Bagian dari organ\",\r\n          \"Clue\": \"_ _ _ _    _ _ _
+    _\",\r\n          \"Help\": \"B _ _ _    M _ _ _\",\r\n          \"Choice\":
+    \"B,U,L,E, ,M,I,T,A,D,F\"\r\n        },\r\n        {\r\n          \"ID\": \"40\",\r\n         
+    \"Question\": \"Masih kecil hitam, tetapi kalau sudah besar menjadi putih, apakah
+    itu\",\r\n          \"Answer\": \"Rambut\",\r\n          \"Alasan\": \"Sesuai
+    dengan perubahan alamiahnya\",\r\n          \"Clue\": \"_ _ _ _ _ _\",\r\n         
+    \"Help\": \"R _ _ _ _ _\",\r\n          \"Choice\": \"R,A,M,B,U,T,O,E\"\r\n       
+    }\r\n      ]\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"6f563ee1-b8c3-4eb9-93da-99882f5f5c73\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"key\": \"Level_ID_005\",\r\n      \"type\": \"json\",\r\n      \"schemaId\":
+    null,\r\n      \"value\": [\r\n        {\r\n          \"ID\": \"41\",\r\n         
+    \"Question\": \"Punya lengan tapi tak punya jari, punya leher tapi tak punya
+    kepala, apakah itu\",\r\n          \"Answer\": \"Baju\",\r\n          \"Alasan\":
+    \"Sesuai dengan penggunaanya\",\r\n          \"Clue\": \"_ _ _ _\",\r\n         
+    \"Help\": \"B _ _ _\",\r\n          \"Choice\": \"B,A,J,U,O,E\"\r\n        },\r\n       
+    {\r\n          \"ID\": \"42\",\r\n          \"Question\": \"Mata apa yang berfungsi
+    untuk memotong\",\r\n          \"Answer\": \"Mata pisau\",\r\n          \"Alasan\":
+    \"Sesuai dengan namanya\",\r\n          \"Clue\": \"_ _ _ _    _ _ _ _ _\",\r\n         
+    \"Help\": \"M _ _ _    P _ _ _ _\",\r\n          \"Choice\": \"M,A,T,E, ,P,I,S,O,U,D,F\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"43\",\r\n          \"Question\": \"Jika
+    dibutuhkan waktu 10 menit untuk merebus 1 butir telur, berapa menit waktu yang
+    diperlukan untuk merebus 5 butir telur\",\r\n          \"Answer\": \"10\",\r\n         
+    \"Alasan\": \"Sesuai dengan logika umumnya\",\r\n          \"Clue\": \"_ _\",\r\n         
+    \"Help\": \"1 _\",\r\n          \"Choice\": \"1,0,2,3\"\r\n        },\r\n       
+    {\r\n          \"ID\": \"44\",\r\n          \"Question\": \"Dipeluk bukannya
+    anak, dipetik bukannya buah, lalu apakah itu\",\r\n          \"Answer\": \"Gitar\",\r\n         
+    \"Alasan\": \"Sesuai dengan caranya penggunaan umumnya\",\r\n          \"Clue\":
+    \"_ _ _ _ _\",\r\n          \"Help\": \"G _ _ _ _\",\r\n          \"Choice\":
+    \"G,I,T,A,R,O,E\"\r\n        },\r\n        {\r\n          \"ID\": \"45\",\r\n         
+    \"Question\": \"Menteri apa yang kepalanya selalu dipegang-pegang\",\r\n         
+    \"Answer\": \"Menteri catur\",\r\n          \"Alasan\": \"Sesuai dengan penggunaan
+    umumnya\",\r\n          \"Clue\": \"_ _ _ _ _ _ _    _ _ _ _ _\",\r\n         
+    \"Help\": \"M _ _ _ _ _ _    C _ _ _ _\",\r\n          \"Choice\": \"M,E,N,T,U,R,I,
+    ,C,A,O,D,F,G\"\r\n        },\r\n        {\r\n          \"ID\": \"46\",\r\n         
+    \"Question\": \"Kotak apa yang bisa memberikan jabatan pada seseorang\",\r\n         
+    \"Answer\": \"Kotak suara\",\r\n          \"Alasan\": \"Benda yang umumnya digunakan\",\r\n         
+    \"Clue\": \"_ _ _ _ _    _ _ _ _ _\",\r\n          \"Help\": \"K _ _ _ _    S
+    _ _ _ _\",\r\n          \"Choice\": \"K,O,T,A,E, ,S,U,I,R,D,F,G\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"47\",\r\n          \"Question\": \"Setiap
+    suku pasti akan ada kepala sukunya, lalu suku apa yang tidak memiliki kepala
+    suku\",\r\n          \"Answer\": \"Suku cadang\",\r\n          \"Alasan\": \"Sesuai
+    dengan namanya\",\r\n          \"Clue\": \"_ _ _ _    _ _ _ _ _ _\",\r\n         
+    \"Help\": \"S _ _ _    C _ _ _ _ _\",\r\n          \"Choice\": \"S,U,K,O, ,C,A,D,I,N,G,F,G\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"48\",\r\n          \"Question\": \"Begadang
+    bukan penjaga malam, mendengung bukan sirene, menyengat bukan lebah. Hewan apakah
+    aku\",\r\n          \"Answer\": \"Nyamuk\",\r\n          \"Alasan\": \"Sesuai
+    dengan prilaku umumnya\",\r\n          \"Clue\": \"_ _ _ _ _ _\",\r\n         
+    \"Help\": \"N _ _ _ _ _\",\r\n          \"Choice\": \"N,Y,A,M,U,K,D,F\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"49\",\r\n          \"Question\": \"Nama
+    kota yang pahit\",\r\n          \"Answer\": \"Pare Pare\",\r\n          \"Alasan\":
+    \"Sesuai dengan namanya\",\r\n          \"Clue\": \"_ _ _ _    _ _ _ _\",\r\n         
+    \"Help\": \"P _ _ _    P  _ _ _\",\r\n          \"Choice\": \"P,A,R,E, ,O,I,D,F,G,H\"\r\n       
+    },\r\n        {\r\n          \"ID\": \"50\",\r\n          \"Question\": \"Habis
+    mandi tidurnya di bawah terik sinar matahari, apakah itu\",\r\n          \"Answer\":
+    \"Jemuran\",\r\n          \"Alasan\": \"Sesuai dengan perlakuan umumnya\",\r\n         
+    \"Clue\": \"_ _ _ _ _ _ _\",\r\n          \"Help\": \"J _ _ _ _ _ _\",\r\n         
+    \"Choice\": \"J,E,M,U,R,A,N,O,I\"\r\n        }\r\n      ]\r\n    }\r\n  }\r\n]"
   _environments: "[\r\n  {\r\n    \"projectId\": \"8207fd3d-05e6-4243-9e36-31662801d088\",\r\n   
     \"name\": \"production\",\r\n    \"id\": \"1c0a2430-c865-4be2-97cc-0f80107b15fa\",\r\n   
     \"isDefault\": true,\r\n    \"createdAt\": \"2024-02-01T13:25:08Z\",\r\n    \"updatedAt\":

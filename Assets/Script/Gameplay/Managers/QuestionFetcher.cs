@@ -68,7 +68,7 @@ public class QuestionFetcher : MonoBehaviour
         List<LevelData> levelData = JsonConverter.ReadFromJSON<List<LevelData>>(RemoteConfigService.Instance.appConfig.GetJson("Level_Data").Replace("\r\n", ""));
         foreach (var leveldata in levelData)
         {
-            leveldata.questionData = JsonConverter.ReadFromJSON<List<QuestionData>>(RemoteConfigService.Instance.appConfig.GetJson(leveldata.LevelName).Replace("\r\n", ""));
+            leveldata.questionData = JsonConverter.ReadFromJSON<List<QuestionData>>(RemoteConfigService.Instance.appConfig.GetJson(leveldata.LevelID).Replace("\r\n", ""));
             
             foreach(var data in leveldata.questionData)
             {

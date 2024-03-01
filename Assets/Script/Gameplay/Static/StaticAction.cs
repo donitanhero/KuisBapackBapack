@@ -13,6 +13,8 @@ public static class StaticAction
 
     public static Action OnWrongAnswer;
 
+    public static Action OnTrueAnswer;
+
     #endregion
 
     #region Question Fetcher
@@ -31,4 +33,21 @@ public static class StaticAction
 
     #endregion
 
+    #region UI Manager
+
+    public static Action<int> ReduceHeart;
+    public static Action ResetHeart;
+    public static Action<string> Win;
+    public static Action<string> Lose;
+
+    
+    
+
+    #endregion
+
+    #region Sound
+
+    public static Action<int> OnMusicPlay;
+    public static Action<int> OnSFXSoundPlay;
+    #endregion
 }

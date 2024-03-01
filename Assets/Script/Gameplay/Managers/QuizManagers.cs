@@ -17,6 +17,7 @@ public class QuizManagers : MonoBehaviour
    
 
     [Header("UI")]
+    [SerializeField] private TextMeshProUGUI _txtLevelName;
     [SerializeField] private TextMeshProUGUI _txtQuestion;
     [SerializeField] private TextMeshProUGUI _txtClue;
 
@@ -27,14 +28,9 @@ public class QuizManagers : MonoBehaviour
     [SerializeField] private Button _btnDeleteAnswer;
     [SerializeField] private Button _btnHelp;
     
-    [Header("True Answer UI")]
-    [SerializeField] private GameObject _pnlTrueAnswer;
 
-    [Header("False Answer UI")]
-    [SerializeField] private GameObject _pnlWrongAnswer;
 
-    [Header("Heart")]
-    [SerializeField] private TextMeshProUGUI _txtHeart;
+
 
     private QuestionData _currentQuiz;
     private int _currentIndex;
@@ -43,6 +39,7 @@ public class QuizManagers : MonoBehaviour
 
     private int _health;
 
+    private string _currentLevelName;
     
 
 
@@ -54,25 +51,47 @@ public class QuizManagers : MonoBehaviour
         _btnDeleteAnswer.onClick.AddListener(DeleteAnswer);
         _btnHelp.onClick.AddListener(Help);
 
-        StaticAction.GiveAnswer = GiveAnswer;
-        StaticAction.NextQuestion = NextQuestion;
-        StaticAction.OnWrongAnswer = AnswerWrong;
+        StaticAction.GiveAnswer += GiveAnswer;
+        StaticAction.NextQuestion += NextQuestion;
+        StaticAction.OnWrongAnswer += AnswerWrong;
         StaticAction.GetLevelData?.Invoke(SetQuestionData);
        
 
+        _btnCheckAnswer.gameObject.SetActive(false);
         NextQuestion();
         
         
     }
 
+    private void Start() {
+        StaticAction.OnMusicPlay(ConstVar.SOUND_GAMEPLAY_MUSIC);
+    }
+
+    private void Update() {
+        #if UNITY_EDITOR
+            if(Input.GetKeyDown(KeyCode.A)){
+                StaticAction.OnTrueAnswer?.Invoke();
+            }
+        #endif
+    }
+
+    private void OnDestroy() {
+        StaticAction.GiveAnswer -= GiveAnswer;
+        StaticAction.NextQuestion -= NextQuestion;
+        StaticAction.OnWrongAnswer -= AnswerWrong;
+    }
+
     private void SetQuestionData(List<LevelData> levelData)
     {
         _questionData = levelData[PlayerData.CurrentLevelIndex].questionData;
+        _currentLevelName = levelData[PlayerData.CurrentLevelIndex].LevelName;
+        _txtLevelName.SetText(_currentLevelName);
     }
 
     private void Help()
     {
         SetClue(_currentQuiz.Help);
+        StaticAction.OnSFXSoundPlay(ConstVar.SOUND_HINT_SFX);
     }
 
     private void ShowQuestion()
@@ -100,21 +119,24 @@ public class QuizManagers : MonoBehaviour
     {
         _currentAnswer += AnswerChar;
         _txtAnswer.SetText(_currentAnswer);
+        _btnCheckAnswer.gameObject.SetActive(true);
     }
 
     private void DeleteAnswer()
     {
-        if(_currentAnswer.Length <= 0) return;
+        if(_currentAnswer.Length <= 0)return;
         _currentAnswer =  _currentAnswer.Remove(_currentAnswer.Length - 1);
         _txtAnswer.SetText(_currentAnswer);
+        if(_currentAnswer.Length <= 0) _btnCheckAnswer.gameObject.SetActive(false);
     }
 
     private void SetUpCharacterForAnswer()
     {
-        if(charObjList.Count < _currentQuiz.ChoiceList.Count)
+        var shuffeledChoice = StaticShuffler.ShuffleList<string>(_currentQuiz.ChoiceList);
+        if(charObjList.Count < shuffeledChoice.Count)
         {
             int tempcharObjList = charObjList.Count;
-            for (int i=0; i< Mathf.Abs(_currentQuiz.ChoiceList.Count - tempcharObjList); i++)
+            for (int i=0; i< Mathf.Abs(shuffeledChoice.Count - tempcharObjList); i++)
             {
                 CharObj newObj = Instantiate(_charObjPrefab, _charObjPrefabParent);
                 charObjList.Add(newObj);
@@ -123,9 +145,9 @@ public class QuizManagers : MonoBehaviour
 
         for(int i=0; i< charObjList.Count; i++)
         {
-            if(i < _currentQuiz.ChoiceList.Count)
+            if(i < shuffeledChoice.Count)
             {
-                charObjList[i].SetUpChar(_currentQuiz.ChoiceList[i]);
+                charObjList[i].SetUpChar(shuffeledChoice[i]);
             }
             else
             {
@@ -138,7 +160,7 @@ public class QuizManagers : MonoBehaviour
     private void SetUpQuiz()
     {
         _health = _maxHealth;
-        UpdateHeartUI();
+        StaticAction.ResetHeart?.Invoke();
 
         ShowQuestion();
         SetUpAnswer();
@@ -148,12 +170,12 @@ public class QuizManagers : MonoBehaviour
     {
         if (_txtAnswer.text.ToLower() == _currentQuiz.Answer.ToLower())
         {
-            _pnlTrueAnswer.SetActive(true);
-            
+            StaticAction.OnTrueAnswer?.Invoke();
         }
         else
         {
-            _pnlWrongAnswer.SetActive(true);
+            
+            StaticAction.OnWrongAnswer?.Invoke();
         }
     }
 
@@ -168,19 +190,17 @@ public class QuizManagers : MonoBehaviour
         }
         else
         {
-            Debug.Log("Game Selesai");
+            StaticAction.Win(_currentLevelName);
+            StaticPlayerPref.SavePlayerData(PlayerData.CurrentLevelIndex);
         }
     }
 
     private void AnswerWrong()
     {
         _health -= 1;
-        UpdateHeartUI();
+        StaticAction.ReduceHeart?.Invoke(_health);
+        if(_health<= ConstVar.ZERO) StaticAction.Lose(_currentLevelName);
     }
 
-    private void UpdateHeartUI()
-    {
-        _txtHeart.SetText("x "+_health.ToString());
-    }
 
 }
